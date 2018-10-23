@@ -13,6 +13,7 @@
 		A26B4F6F217D803F00AB442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26B4F6E217D803F00AB442C /* Assets.xcassets */; };
 		A26B4F72217D803F00AB442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26B4F70217D803F00AB442C /* LaunchScreen.storyboard */; };
 		A26B4F75217D803F00AB442C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26B4F74217D803F00AB442C /* main.m */; };
+		A2A4D28D217EC11900C2AC5B /* TYBasedAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A4D28C217EC11900C2AC5B /* TYBasedAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		A26B4F71217D803F00AB442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A26B4F73217D803F00AB442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26B4F74217D803F00AB442C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2A4D28B217EC11900C2AC5B /* TYBasedAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYBasedAnimationViewController.h; sourceTree = "<group>"; };
+		A2A4D28C217EC11900C2AC5B /* TYBasedAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYBasedAnimationViewController.m; sourceTree = "<group>"; };
+		A2A4D28E217ECFCD00C2AC5B /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,12 @@
 				A26B4F63217D803F00AB442C /* AppDelegate.m */,
 				A26B4F65217D803F00AB442C /* ViewController.h */,
 				A26B4F66217D803F00AB442C /* ViewController.m */,
+				A2A4D28B217EC11900C2AC5B /* TYBasedAnimationViewController.h */,
+				A2A4D28C217EC11900C2AC5B /* TYBasedAnimationViewController.m */,
 				A26B4F6E217D803F00AB442C /* Assets.xcassets */,
 				A26B4F70217D803F00AB442C /* LaunchScreen.storyboard */,
 				A26B4F73217D803F00AB442C /* Info.plist */,
+				A2A4D28E217ECFCD00C2AC5B /* CommonMacro.h */,
 				A26B4F74217D803F00AB442C /* main.m */,
 				A26B4F6B217D803F00AB442C /* CoreAnimationExamplemodelModel.xcdatamodeld */,
 			);
@@ -144,6 +151,7 @@
 				A26B4F67217D803F00AB442C /* ViewController.m in Sources */,
 				A26B4F6D217D803F00AB442C /* CoreAnimationExamplemodelModel.xcdatamodeld in Sources */,
 				A26B4F75217D803F00AB442C /* main.m in Sources */,
+				A2A4D28D217EC11900C2AC5B /* TYBasedAnimationViewController.m in Sources */,
 				A26B4F64217D803F00AB442C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5WRHCE748;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreAnimationExamplemodelModel/CommonMacro.h";
 				INFOPLIST_FILE = CoreAnimationExamplemodelModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name-Get-image-processing.CoreAnimationExamplemodelModel";
@@ -286,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5WRHCE748;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreAnimationExamplemodelModel/CommonMacro.h";
 				INFOPLIST_FILE = CoreAnimationExamplemodelModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name-Get-image-processing.CoreAnimationExamplemodelModel";
