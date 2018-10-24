@@ -13,6 +13,7 @@
 		A26B4F6F217D803F00AB442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26B4F6E217D803F00AB442C /* Assets.xcassets */; };
 		A26B4F72217D803F00AB442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26B4F70217D803F00AB442C /* LaunchScreen.storyboard */; };
 		A26B4F75217D803F00AB442C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26B4F74217D803F00AB442C /* main.m */; };
+		A27D93C121801C2F0031221B /* TYKeyFramesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D93C021801C2F0031221B /* TYKeyFramesViewController.m */; };
 		A2A4D28D217EC11900C2AC5B /* TYBasedAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A4D28C217EC11900C2AC5B /* TYBasedAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		A26B4F71217D803F00AB442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A26B4F73217D803F00AB442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26B4F74217D803F00AB442C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A27D93BF21801C2F0031221B /* TYKeyFramesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYKeyFramesViewController.h; sourceTree = "<group>"; };
+		A27D93C021801C2F0031221B /* TYKeyFramesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYKeyFramesViewController.m; sourceTree = "<group>"; };
 		A2A4D28B217EC11900C2AC5B /* TYBasedAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYBasedAnimationViewController.h; sourceTree = "<group>"; };
 		A2A4D28C217EC11900C2AC5B /* TYBasedAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYBasedAnimationViewController.m; sourceTree = "<group>"; };
 		A2A4D28E217ECFCD00C2AC5B /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				A26B4F66217D803F00AB442C /* ViewController.m */,
 				A2A4D28B217EC11900C2AC5B /* TYBasedAnimationViewController.h */,
 				A2A4D28C217EC11900C2AC5B /* TYBasedAnimationViewController.m */,
+				A27D93BF21801C2F0031221B /* TYKeyFramesViewController.h */,
+				A27D93C021801C2F0031221B /* TYKeyFramesViewController.m */,
 				A26B4F6E217D803F00AB442C /* Assets.xcassets */,
 				A26B4F70217D803F00AB442C /* LaunchScreen.storyboard */,
 				A26B4F73217D803F00AB442C /* Info.plist */,
@@ -151,6 +156,7 @@
 				A26B4F67217D803F00AB442C /* ViewController.m in Sources */,
 				A26B4F6D217D803F00AB442C /* CoreAnimationExamplemodelModel.xcdatamodeld in Sources */,
 				A26B4F75217D803F00AB442C /* main.m in Sources */,
+				A27D93C121801C2F0031221B /* TYKeyFramesViewController.m in Sources */,
 				A2A4D28D217EC11900C2AC5B /* TYBasedAnimationViewController.m in Sources */,
 				A26B4F64217D803F00AB442C /* AppDelegate.m in Sources */,
 			);
@@ -282,6 +288,7 @@
 				DEVELOPMENT_TEAM = N5WRHCE748;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreAnimationExamplemodelModel/CommonMacro.h";
 				INFOPLIST_FILE = CoreAnimationExamplemodelModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name-Get-image-processing.CoreAnimationExamplemodelModel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +304,7 @@
 				DEVELOPMENT_TEAM = N5WRHCE748;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreAnimationExamplemodelModel/CommonMacro.h";
 				INFOPLIST_FILE = CoreAnimationExamplemodelModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name-Get-image-processing.CoreAnimationExamplemodelModel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
