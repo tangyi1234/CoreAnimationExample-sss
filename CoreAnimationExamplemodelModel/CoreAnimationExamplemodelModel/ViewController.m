@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TYBasedAnimationViewController.h"
 #import "TYKeyFramesViewController.h"
+#import "TYGroupAnimationViewController.h"
 @interface ViewController ()
 
 @end
@@ -35,6 +36,13 @@
     [but1 setTitle:@"关键帧动画" forState:UIControlStateNormal];
     [but1 addTarget:self action:@selector(selectorBut1) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:but1];
+    
+    UIButton *but2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    but2.frame = CGRectMake(10, 135, 150, 30);
+    but2.backgroundColor = [UIColor greenColor];
+    [but2 setTitle:@"组动画" forState:UIControlStateNormal];
+    [but2 addTarget:self action:@selector(selectorBut2) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:but2];
 }
 
 - (void)selectorBut{
@@ -46,6 +54,12 @@
     TYKeyFramesViewController *vc = [[TYKeyFramesViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (void)selectorBut2{
+    TYGroupAnimationViewController *vc = [[TYGroupAnimationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
