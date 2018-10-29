@@ -82,7 +82,7 @@
 }
 
 /**
- 安指定的顺序执行
+ 安指定的顺序执行，这个顺序就是我们写的代码的顺序。先位移执行缩放在旋转，然后停在最后的动作上。
  */
 - (void)selectorBut1{
     CFTimeInterval currentTime = CACurrentMediaTime();

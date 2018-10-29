@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A22AD24F2186A828001BCF00 /* TYExcessiveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22AD24E2186A828001BCF00 /* TYExcessiveAnimationViewController.m */; };
 		A24D07092181659500AAB38F /* TYGroupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24D07082181659500AAB38F /* TYGroupAnimationViewController.m */; };
 		A26B4F64217D803F00AB442C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26B4F63217D803F00AB442C /* AppDelegate.m */; };
 		A26B4F67217D803F00AB442C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26B4F66217D803F00AB442C /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A22AD24D2186A828001BCF00 /* TYExcessiveAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYExcessiveAnimationViewController.h; sourceTree = "<group>"; };
+		A22AD24E2186A828001BCF00 /* TYExcessiveAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYExcessiveAnimationViewController.m; sourceTree = "<group>"; };
 		A24D07072181659500AAB38F /* TYGroupAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYGroupAnimationViewController.h; sourceTree = "<group>"; };
 		A24D07082181659500AAB38F /* TYGroupAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYGroupAnimationViewController.m; sourceTree = "<group>"; };
 		A26B4F5F217D803F00AB442C /* CoreAnimationExamplemodelModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationExamplemodelModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +81,8 @@
 				A27D93C021801C2F0031221B /* TYKeyFramesViewController.m */,
 				A24D07072181659500AAB38F /* TYGroupAnimationViewController.h */,
 				A24D07082181659500AAB38F /* TYGroupAnimationViewController.m */,
+				A22AD24D2186A828001BCF00 /* TYExcessiveAnimationViewController.h */,
+				A22AD24E2186A828001BCF00 /* TYExcessiveAnimationViewController.m */,
 				A26B4F6E217D803F00AB442C /* Assets.xcassets */,
 				A26B4F70217D803F00AB442C /* LaunchScreen.storyboard */,
 				A26B4F73217D803F00AB442C /* Info.plist */,
@@ -160,6 +165,7 @@
 			files = (
 				A26B4F67217D803F00AB442C /* ViewController.m in Sources */,
 				A26B4F6D217D803F00AB442C /* CoreAnimationExamplemodelModel.xcdatamodeld in Sources */,
+				A22AD24F2186A828001BCF00 /* TYExcessiveAnimationViewController.m in Sources */,
 				A26B4F75217D803F00AB442C /* main.m in Sources */,
 				A27D93C121801C2F0031221B /* TYKeyFramesViewController.m in Sources */,
 				A24D07092181659500AAB38F /* TYGroupAnimationViewController.m in Sources */,

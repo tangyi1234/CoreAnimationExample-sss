@@ -10,6 +10,7 @@
 #import "TYBasedAnimationViewController.h"
 #import "TYKeyFramesViewController.h"
 #import "TYGroupAnimationViewController.h"
+#import "TYExcessiveAnimationViewController.h"
 @interface ViewController ()
 
 @end
@@ -43,6 +44,13 @@
     [but2 setTitle:@"组动画" forState:UIControlStateNormal];
     [but2 addTarget:self action:@selector(selectorBut2) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:but2];
+    
+    UIButton *but3 = [UIButton buttonWithType:UIButtonTypeCustom];
+    but3.frame = CGRectMake(10, 170, 150, 30);
+    but3.backgroundColor = [UIColor greenColor];
+    [but3 setTitle:@"过渡动画" forState:UIControlStateNormal];
+    [but3 addTarget:self action:@selector(selectorBut3) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:but3];
 }
 
 - (void)selectorBut{
@@ -60,6 +68,10 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (void)selectorBut3{
+    TYExcessiveAnimationViewController *vc = [[TYExcessiveAnimationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
